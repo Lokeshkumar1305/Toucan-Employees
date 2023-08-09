@@ -1,0 +1,54 @@
+.logo{
+    height:39px;
+     margin-top:60px; 
+    margin-right:800px;
+    
+ }
+ .login-btn{
+    margin-right: 10px;
+   margin-top: 35px;
+   
+   
+ }
+ .reg-btn{
+   margin-right: 60px;  
+   margin-top: 38px;
+ }
+ .btns-space{
+   margin-bottom: 0px;
+ }
+ .space{
+   margin-left: 900px;
+}
+.but1-space{
+    margin-bottom:0px;
+}
+  .content-space{
+    margin-right: 50px;
+    margin-top: 50px;
+ }
+ .image{
+    margin-left: 220px;
+    margin-top:60px;
+ }
+ .wel{
+ font-size: 40px;
+ }
+ .tou{
+font-size: 60px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 30px;
+color: tomato;
+ }
+ .cont{
+font-size:20px;
+margin-top:30px;
+ }
+ .btn-size{
+    height:45px;
+    font-size: 17px;
+    width:250px;
+    margin-top:10px;
+    color:white;
+ }
+ 

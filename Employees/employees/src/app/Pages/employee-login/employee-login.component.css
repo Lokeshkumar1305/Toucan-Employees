@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+    /* background-color:antiquewhite; */
+    /* background-color:seashell; */
+    background-color:thistle;
+}
+.card-space{
+    height:430px;
+    width:500px;
+}
+.image-space{
+margin-top:40px;
+margin-left:167px;
+}
+.title-space{
+    margin-top:20px;
+    margin-left:167px;
+}
+.field-size{
+    width:300px;
+    margin-left:80px;
+    margin-top: 10px;
+}
+.login-space{
+     margin-left:200px;
+    
+}
+.account-space{
+    
+    margin-top:15px; 
+    
+}

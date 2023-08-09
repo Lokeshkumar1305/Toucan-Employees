@@ -1,0 +1,118 @@
+<!-- <p>employees-registration works!</p> -->
+<html lang="en">
+<head>
+  <title>Registration</title>
+</head>
+<p>
+  <mat-toolbar>
+    <img src="../../../assets/logo-2.svg" class="logo">
+
+    <span class="menu-icon"></span>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+<body>
+<div class="container">
+  <div fxLayout="row" fxLayoutAlign="center center" style="margin-right:350px ;">
+    <div fxLayout="column" fxflex=20>
+      <div class="image">
+        <img src="../../../assets/emp-img-1.jpg" alt="" style="height:440px; width:500px;">
+      </div>
+    </div>
+    <div fxLayout="column" fxflex=70>
+      <span class="title"> Registration</span>
+      <div class="space">
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="block">
+          <mat-form-field appearance="outline">
+            <mat-label>First name*</mat-label>
+            <input matInput>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Last name*</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="block">
+          <mat-form-field appearance="outline">
+            <mat-label>Employee id*</mat-label>
+            <input matInput>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Designation</mat-label>
+            <mat-select>
+              <mat-option value="one">Front-End Angular</mat-option>
+              <mat-option value="two">Java</mat-option>
+              <mat-option value="one">Python</mat-option>
+              <mat-option value="one">Devops</mat-option>
+              <mat-option value="one">Testing</mat-option>
+              <mat-option value="one">Flutter</mat-option>
+              <mat-option value="one">Infra</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="block">
+          <mat-form-field appearance="outline">
+            <mat-label>Email*</mat-label>
+            <input matInput placeholder="Ex. abc@toucanus.com">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Phone number*</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="block">
+          <mat-form-field appearance="outline" class="">
+            <mat-label>Password*</mat-label>
+            <input matInput>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Confirm password*</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center" class="block">
+          <div fxLayout="column" class="gender">
+            <label id="radio-label">Gender: </label>
+            <mat-radio-group aria-label="Select an option" class="radio">
+              <mat-radio-button value="1" color="primary">Male</mat-radio-button>
+              <mat-radio-button class="radio-button" value="2" color="primary">Female</mat-radio-button>
+              <mat-radio-button class="radio-button" value="3" color="primary">Others</mat-radio-button>
+            </mat-radio-group>
+          </div>
+          <div fxLayout="column" class="dob">
+            <!-- <label id="radio-label" >Date of birth: </label>
+          <br> -->
+            <mat-form-field class="example-form-field" appearance="outline">
+              <mat-label>Select DOB</mat-label>
+              <input matInput [matDatepicker]="datepicker">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matIconSuffix [for]="datepicker"></mat-datepicker-toggle>
+              <mat-datepicker #datepicker>
+                <mat-datepicker-actions>
+                  <button mat-button matDatepickerCancel>Cancel</button>
+                  <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+                </mat-datepicker-actions>
+              </mat-datepicker>
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+
+      <div fxLayout="row" fxLayoutAlign="center center" class="register">
+        <button mat-raised-button color="primary" class="size">Submit</button>
+      </div>
+
+      <div fxLayout="row" fxLayoutAlign="center center" class="logn">
+        <p>Have already an account? <a routerLink="/employee-login">Login here</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

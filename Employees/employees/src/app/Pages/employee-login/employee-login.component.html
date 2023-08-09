@@ -1,0 +1,39 @@
+<!-- <p>employee-login works!</p> -->
+<html lang="en">
+<head>
+  <title>Login</title>
+</head>
+<body>
+<div fxLayout="row" fxLayoutAlign="center center" class="container">
+<div fxLayout="column" >
+<mat-card class="card-space">
+    <mat-card-title>
+        <img src="../../../assets/logo-2.svg" class="image-space">
+       <p class="title-space">Employee Login</p>
+    </mat-card-title>
+    <mat-card-content>
+        <mat-form-field appearance="outline" class="field-size">
+            <mat-label>Email*</mat-label>
+            <input matInput placeholder="Ex. abc@toucanus.com">
+          </mat-form-field>
+          <br>
+          <mat-form-field appearance="outline" class="field-size">
+            <mat-label>Password*</mat-label>
+            <input matInput>
+          </mat-form-field>
+          </mat-card-content>
+          <mat-card-actions>
+            <div fxLayout="row" fxLayoutAlign="center center" class="">
+            <button mat-raised-button color="primary" class="login-space">Login</button>
+            </div>
+          </mat-card-actions>
+          <div fxLayout="row" fxLayoutAlign="center center" class="account-space">
+            Don't have an account?<a routerLink="/employees-registration" > Create Account</a>
+          </div>
+</mat-card>
+</div>
+</div>
+</body>
+</html>
+
+
